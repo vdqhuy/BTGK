@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_item_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:columnCount="2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_margin="5dp"
+        android:layout_gravity="center|start"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txt_order"
+            style="@style/layout_item_tv"
+            android:text="1"
+            android:maxLines="2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="500dp"
+            android:elevation="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/img_avatar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/user_avatar"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/txt_username"
+            style="@style/layout_item_tv"
+            android:text="John"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_email"
+            style="@style/layout_item_tv"
+            android:layout_width="220dp"
+            android:layout_gravity="start|center"
+            android:drawableStart="@drawable/ic_mail_24px"
+            android:text="john@example.com" />
+
+        <TextView
+            android:id="@+id/txt_phone"
+            style="@style/layout_item_tv"
+            android:layout_width="220dp"
+            android:layout_gravity="center|start"
+            android:drawableStart="@drawable/ic_call_24px"
+            android:ellipsize="end"
+            android:text="1234567890" />
+
+        <TextView
+            android:id="@+id/txt_views"
+            style="@style/layout_item_tv"
+            android:layout_width="220dp"
+            android:layout_gravity="center|start"
+            android:drawableStart="@drawable/ic_visibility_24px"
+            android:text="Lượt xem: 0" />
+
+        <TextView
+            android:id="@+id/txt_likes"
+            style="@style/layout_item_tv"
+            android:layout_width="220dp"
+            android:layout_gravity="center|start"
+            android:drawableStart="@drawable/ic_favorite_24px"
+            android:text="Lượt yêu thích: 0" />
+
+        <TextView
+            android:id="@+id/txt_shares"
+            style="@style/layout_item_tv"
+            android:layout_width="220dp"
+            android:layout_gravity="center|start"
+            android:drawableStart="@drawable/ic_share_24px"
+            android:text="Lượt chia sẻ: 0" />
+
+        <TextView
+            android:id="@+id/txt_comments"
+            style="@style/layout_item_tv"
+            android:layout_width="220dp"
+            android:layout_gravity="center|start"
+            android:drawableStart="@drawable/ic_comment_24px"
+            android:text="Lượt bình luận: 0" />
+
+        <TextView
+            android:id="@+id/txt_downloads"
+            style="@style/layout_item_tv"
+            android:layout_width="220dp"
+            android:layout_gravity="center|start"
+            android:drawableStart="@drawable/ic_download_24px"
+            android:text="Lượt tải: 0" />
+    </LinearLayout>
+
+</GridLayout>

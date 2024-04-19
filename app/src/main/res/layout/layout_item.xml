@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_item_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:columnCount="3">
+
+    <TextView
+        android:id="@+id/txt_rank"
+        style="@style/layout_item_tv"
+        android:layout_width="50dp"
+        android:layout_column="0"
+        android:text="1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/img_content"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:src="@drawable/film_landscape"/>
+
+            <TextView
+                android:id="@+id/txt_content"
+                android:layout_width="170dp"
+                android:text="Người Nhện: Vũ trụ mới"
+                style="@style/layout_item_tv"
+                android:layout_gravity="start|bottom"
+                android:textAlignment="textStart"
+                android:maxLines="@integer/material_motion_duration_long_1"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txt_data"
+        style="@style/layout_item_tv"
+        android:drawableBottom="@drawable/ic_film_movie_24px"
+        android:text="1500"/>
+
+</GridLayout>

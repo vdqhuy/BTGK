@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "601719475809",
+    "firebase_url": "https://btgk-99058-default-rtdb.firebaseio.com",
+    "project_id": "btgk-99058",
+    "storage_bucket": "btgk-99058.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601719475809:android:8abb57a0e06dfd50d1a420",
+        "android_client_info": {
+          "package_name": "com.example.btgk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI_6osWy-1GGhCfTzA5iXlasEzrUga5lE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

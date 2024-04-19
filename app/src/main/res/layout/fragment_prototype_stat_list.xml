@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/round_corner_e5e7eb_color"
+    tools:context=".Fragment.PrototypeStatListFragment"
+    android:orientation="vertical"
+    android:gravity="top|center">
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/lv_stat_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        tools:listitem="@layout/layout_item_genre"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_select_genre"
+        android:visibility="gone"
+        style="@style/cv_select"
+        android:layout_marginTop="5dp">
+        <ImageView
+            style="@style/ic_select"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_genre_24px"/>
+
+        <Spinner
+            android:id="@+id/spSelectGenre"
+            android:layout_width="280dp"
+            style="@style/sp_select"
+            android:background="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/ic_select"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/ic_arrow_drop_down_24px" />
+    </androidx.cardview.widget.CardView>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="visible"
+        android:id="@+id/rv_stat_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/round_corner_e5e7eb_color"
+        tools:listitem="@layout/layout_item"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BTGK</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_header_menu">Thống kê</string>
+    <string name="txt_total_films">Số phim</string>
+    <string name="txt_total_accs">Số tài khoản</string>
+    <string name="txt_views">Lượt xem</string>
+    <string name="txt_top_genres">Top thể loại</string>
+    <string name="txt_likes">Lượt yêu thích</string>
+    <string name="txt_comments">Lượt bình luận</string>
+    <string name="txt_shares">Lượt chia sẻ</string>
+    <string name="txt_downloads">Lượt tải</string>
+    <string name="txt_film_amount">Số lượng phim</string>
+    <string name="txt_all_films">Tất cả phim</string>
+    <string name="txt_movies">Phim ngắn</string>
+    <string name="txt_series">Phim dài tập</string>
+    <string name="txt_genres">Thể loại</string>
+    <string name="btn_list">Danh sách</string>
+    <string name="btn_chart">Đồ thị</string>
+    <string name="txt_bar_chart">Cột</string>
+    <string name="txt_pie_chart">Tròn</string>
+    <string name="txt_default_list">Mặc định</string>
+    <string name="txt_all_accs">Tất cả tài khoản</string>
+</resources>

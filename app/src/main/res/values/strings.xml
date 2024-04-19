@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BTGK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_header_menu">Staticstics</string>
+    <string name="txt_total_films">Films</string>
+    <string name="txt_total_accs">Accounts</string>
+    <string name="txt_top_genres">Top Genres</string>
+    <string name="txt_views">Views</string>
+    <string name="txt_likes">Likes</string>
+    <string name="txt_comments">Comments</string>
+    <string name="txt_shares">Shares</string>
+    <string name="txt_downloads">Downloads</string>
+    <string name="txt_film_amount">Film amount</string>
+    <string name="txt_all_films">All films</string>
+    <string name="txt_movies">Movies</string>
+    <string name="txt_series">Series</string>
+    <string name="txt_genres">Genres</string>
+    <string name="btn_list">List</string>
+    <string name="btn_chart">Chart</string>
+    <string name="txt_bar_chart">Bar</string>
+    <string name="txt_pie_chart">Pie</string>
+    <string name="txt_default_list">Default</string>
+    <string name="txt_all_accs">All accounts</string>
+</resources>
